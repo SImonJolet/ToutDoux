@@ -10,3 +10,101 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+# ignore les fichiers journaux et les bases de données
+* .log
+* .sql
+* .sqlite
+# ignore les fichiers compilés
+* .com
+*. class
+ * .dll
+* .exe
+* .o
+* .so
+# ignorer les fichiers empaquetés
+* .7z
+* .dmg
+* .gz
+* .iso
+* .jar
+* .rar
+* .tar
+* .z
+# ignorer les fichiers générés par le système d'exploitation
+ehthumbs.db
+Thumbs .db
+.DS_Store
+.DS_Store?
+._ *
+.Spotlight-V100
+.Trashes
+# ignore les fichiers de l'éditeur
+* .sublime-project
+* .sublime-workspace
+* .komodoproject
+_ide_helper.php
+/.idea
+/.vscode
+# Fichiers de projet Eclipse
+.buildpath
+.project
+.settings /
+# Ignorer cache
+.cache /
+# Ignorer les fichiers créés par l'utilisateur :)
+* .bak
+* .orig
+# Ignore les fichiers système
+.bash_history
+LICENSE_AFL.txt
+License.html
+LICENSE.txt
+LICENSE_EE *
+release_notes.txt
+.ssh /
+error_log
+.htpasswds
+/.htaccess
+php.ini.sample
+.modgit /
+_vti_bin /
+_vti_cnf /
+_vti_inf.html
+_vti_log /
+_vti_pvt /
+_vti_txt /
+tmp /
+php.ini
+_old /
+.htpasswds /
+.htpasswd
+.viminfo
+.profile
+.bashrc
+.bash_logout
+.bash_history
+.modgit /
+.modman /
+pkginfo
+nohup.out
+Homestead.yaml
+Homestead.json
+/.vagrant
+.phpunit.result.cache
+#Laravel Fichiers spécifiques
+/ fournisseur
+.env
+/public/.htaccess
+/ storage
+storage / *. key
